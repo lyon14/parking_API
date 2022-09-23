@@ -50,7 +50,8 @@ module.exports.datastores = {
     ***************************************************************************/
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
-
+    adapter: 'sails-postgresql',
+    url: 'postgresql://postgres:rosita14@localhost:5432/parkingDB',
   },
 
 
