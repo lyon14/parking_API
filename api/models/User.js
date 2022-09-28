@@ -18,12 +18,13 @@ module.exports = {
       unique: true,
       required: true,
     },
+    password: {
+      type: 'string',
+      required: true,
+    },
     telefono: {
       type: 'string',
     },
-    password: {
-      type: 'string',
-    }
 
   },
 
