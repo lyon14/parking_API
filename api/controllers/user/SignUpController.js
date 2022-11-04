@@ -23,7 +23,7 @@ module.exports = {
 
     const { name, email, telefono, password } = await schema.validateAsync(req.body);
     const hashedPassword = await bcrypt.hash(password, 10);
-    const user = await User.create({ name, email, telefono, password: hashedPassword }).fetch();
+    const user = await Usuario.create({ name, email, telefono, password: hashedPassword }).fetch();
     return res.ok(user);
 
   } catch (error) {
