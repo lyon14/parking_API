@@ -16,6 +16,9 @@ module.exports.routes = {
   'POST /venta/create': 'venta/AddVentaController.addVenta',
   'POST /ventaxlocacion/create': 'venta/AddVentaxLocacionController.addVentaxLocacion',
   'GET /venta/list/:id': 'venta/ListVentasController.listVentas',
-  'POST /locacion/list': 'locacion/ListLocacionController.listLocacion'
+  'POST /locacion/list': 'locacion/ListLocacionController.listLocacion',
+  'POST /activo/create': 'activo/AddActivoController.addActivo',
+  'POST /activo/findPatente': 'activo/FindPatenteController.findPatente',
+  'POST /activo/pagoRealizado': 'activo/PagoRealizadoController.pagoRealizado',
 
 };
